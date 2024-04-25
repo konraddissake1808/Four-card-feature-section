@@ -1,0 +1,39 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+@media (width < 321px) {
+    #content-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #content {
+        width: 90%;
+    }
+
+    .title-section-text {
+        text-align: center;
+    }
+
+    #selling-args {
+        font-family: Poppins;
+        font-size: 1.2em;
+        font-weight: 200;
+    }
+
+    #powered-by {
+        font-family: Poppins;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
+    #description {
+        font-family: Poppins;
+        font-size: 0.9em;
+        font-weight: 200;
+    }
+}
