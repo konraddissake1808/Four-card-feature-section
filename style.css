@@ -13,6 +13,11 @@ body {
 
     #content {
         width: 90%;
+        margin: 64px 0;
+    }
+
+    #title-section {
+        margin-bottom: 68px;
     }
 
     .title-section-text {
@@ -33,7 +38,76 @@ body {
 
     #description {
         font-family: Poppins;
-        font-size: 0.9em;
+        font-size: 15px;
         font-weight: 200;
+    }
+
+    #card-section {
+        width: 100%;
+    }
+
+    #cards-container {
+        display: grid;
+        grid-template-rows: 210px 210px 210px 210px;
+        grid-template-columns: 100%;
+        grid-gap: 2em;
+    } 
+
+    .cards {
+        box-shadow: 0px 5px 10px 8px hsl(0, 0%, 98%);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #card-1 {
+        border-top: 3px solid hsl(180, 62%, 55%);
+    }
+
+    #card-2 {
+        border-top: 3px solid hsl(0, 78%, 62%);
+    }
+
+    #card-3 {
+        border-top: 3px solid hsl(34, 97%, 64%);
+    }
+
+    #card-4 {
+        border-top: 3px solid hsl(212, 86%, 64%);
+    }
+
+    .card-content {
+        width: 80%;
+    }
+
+    .card-title-container {
+        width: 100%;
+    }
+
+    .card-title {
+        font-family: Poppins;
+        font-weight: 600;
+        margin: 24px 0px 4px 0px;
+    }
+
+    .card-text-container {
+        width: 100%;
+    }
+
+    .card-text {
+        font-family: Poppins;
+        font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 32px;
+    }
+
+    .card-icon-container {
+        text-align: end;
+    }
+
+    .card-icon {
+        width: 3.5em;
     }
 }
